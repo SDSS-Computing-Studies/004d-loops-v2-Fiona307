@@ -1,6 +1,6 @@
 #! python3
 
-name = input("Enter a name")
+name = (input("Enter a name")).strip()
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
 for i in nameList:
