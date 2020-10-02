@@ -1,9 +1,7 @@
 #! python3
 
-width = input("Enter the width of a box")
-height = input("Enter the height of a box")
-w = int(width)
-h = int(height)
+x = input("Enter the width and height of a box")
+y = int(x)
 
-for i in range(1,h+1):
-    print("*"*w)
+for i in range(1,y+1):
+    print("*"*y)
