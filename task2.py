@@ -1,9 +1,9 @@
 #! python3
 
 name = input("Enter a name")
-Namelist = ("Alex","Sherry","Ben","Cathy","Joe")
+namelist = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
-for i in Namelist:
+for i in namelist:
     if i ==name:
-        print("The name is on the list")
+        print("That name is on the list")
         
