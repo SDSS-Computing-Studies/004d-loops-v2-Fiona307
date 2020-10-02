@@ -9,4 +9,4 @@ for i in range(1,x):
     a = a + b
     b = (10*b) + 1
 
-print("the sum of the series is" + str(a+b))
+print("the sum of the series is " + str(a+b))
